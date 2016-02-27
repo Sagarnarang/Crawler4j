@@ -1,0 +1,5 @@
+# Crawler4j
+Crawler4j Configuration to crawl USC keck school of Medicine website, fetch all html,doc and pdf files, download them and create a crawling report.
+
+###Sample Crawling Report
+Fetch Statistics<br />================<br />-> fetches attempted: 4988<br />-> fetches succeeded: 3918<br />-> fetches aborted: 990<br />-> fetches failed: 80<br /><br />Outgoing URLs<br />================<br />Total URLs extracted: 79122<br />-> unique URLs extracted: 25879<br />-> unique URLs within school: 6847<br />-> unique USC URLs outside school: 4186<br />-> unique URLs outside USC: 14846<br /><br />Status Codes<br />================<br />-> 200 OK:3918<br />-> 301 Moved Permanently: 990<br />-> 302 Moved Temporarily: 63<br />-> 404 Not Found: 8<br /><br />File Sizes<br />================<br />< 1KB: 0<br />1KB ~ <10KB: 17<br />10KB ~ <100KB: 1189<br />100KB ~ <1MB: 1347<br />>= 1MB: 26<br /><br />Content Types<br />================<br />text/html: 2406<br />application/pdf: 165<br />application/doc: 8<br />
